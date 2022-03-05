@@ -34,8 +34,16 @@ footer {
   gap: 24px;
 }
 
-.App-socials > a {
+.App-socials > a,
+.App-socials > button {
   width: 64px;
+}
+
+.App-socials > button {
+  background-color: transparent;
+  border-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 @media only screen and (max-width: 600px) {

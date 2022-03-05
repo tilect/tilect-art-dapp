@@ -30,9 +30,9 @@ function App() {
           <a href="https://github.com/tilect" target="_blank" rel="noreferrer">
             <Icon icon="github" />
           </a>
-          <a href="#">
+          <button disabled>
             <Icon icon="soundcloud" color="gray" />
-          </a>
+          </button>
         </div>
       </footer>
     </div>
