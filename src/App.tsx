@@ -9,16 +9,24 @@ function App() {
       </main>
       <footer>
         <div className="App-socials">
-          <a href="https://t.me/tilectartpublic" target="_blank">
+          <a
+            href="https://t.me/tilectartpublic"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Icon icon="telegram" />
           </a>
-          <a href="https://instagram.com/tilect.art" target="_blank">
+          <a
+            href="https://instagram.com/tilect.art"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Icon icon="instagram" />
           </a>
-          <a href="https://github.com/tilect" target="_blank">
+          <a href="https://github.com/tilect" target="_blank" rel="noreferrer">
             <Icon icon="github" />
           </a>
-          <a href="#" target="_blank">
+          <a href="#">
             <Icon icon="soundcloud" color="gray" />
           </a>
         </div>
