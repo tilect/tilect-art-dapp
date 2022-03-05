@@ -11,7 +11,11 @@ const ICONS = {
   github: GithubIcon,
 };
 
-const Icon: React.FC<IconProps> = ({ icon, color = "white", size = 64 }) => {
+const Icon: React.FC<IconProps> = ({
+  icon,
+  color = "white",
+  size = "100%",
+}) => {
   const IconComponent = ICONS[icon];
   return <IconComponent color={color} size={size} />;
 };

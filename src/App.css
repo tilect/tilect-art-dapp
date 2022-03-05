@@ -17,7 +17,7 @@ main {
 main > img {
   height: auto;
   width: 100%;
-  max-width: 1000px;
+  max-width: 512px;
 }
 
 footer {
@@ -28,7 +28,25 @@ footer {
 }
 
 .App-socials {
+  margin-top: 64px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
+}
+
+.App-socials > a {
+  width: 64px;
+}
+
+@media only screen and (max-width: 600px) {
+  .App-socials {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  .App-socials > a {
+    width: 48px;
+  }
 }
