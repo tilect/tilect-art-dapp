@@ -5,7 +5,11 @@ function App() {
   return (
     <div className="App">
       <main>
-        <img src="/logo512.png" className="App-logo" alt="Tilect Logo" />
+        <img
+          src="/logo512.png"
+          className="App-logo"
+          alt="Tilect.art white on black logo"
+        />
       </main>
       <footer>
         <div className="App-socials">
