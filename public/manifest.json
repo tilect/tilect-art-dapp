@@ -8,7 +8,7 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "tilect_logo512.png",
       "type": "image/png",
       "sizes": "192x96"
     },
@@ -16,26 +16,6 @@
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x256"
-    },
-    {
-      "src": "logo1000.png",
-      "type": "image/png",
-      "sizes": "1000x500"
-    },
-    {
-      "src": "logo192_black.png",
-      "type": "image/png",
-      "sizes": "192x96"
-    },
-    {
-      "src": "logo512_black.png",
-      "type": "image/png",
-      "sizes": "512x256"
-    },
-    {
-      "src": "logo1000_black.png",
-      "type": "image/png",
-      "sizes": "1000x500"
     }
   ],
   "start_url": ".",
