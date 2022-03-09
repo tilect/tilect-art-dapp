@@ -1,45 +1,48 @@
 .App {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: center;
   width: 100%;
   height: 100vh;
   margin: 0;
   padding: 0;
 }
 
-main {
-  display: flex;
+.App > video {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
   width: 100%;
-  justify-content: center;
-}
-
-main > img {
   height: auto;
-  width: 100%;
-  max-width: 512px;
-}
-
-footer {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  max-width: 1980px;
+  z-index: 1;
 }
 
 .App-socials {
-  margin-top: 64px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+  gap: 64px;
+  z-index: 2;
+  margin-bottom: 64px;
 }
 
-.App-socials > a,
-.App-socials > button {
+.App-socials > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-socials > div > a,
+.App-socials > div > button {
   width: 64px;
+  text-align: center;
 }
 
-.App-socials > button {
+.App-socials > div > button {
   background-color: transparent;
   border-style: none;
   padding: 0;
@@ -48,13 +51,14 @@ footer {
 
 @media only screen and (max-width: 600px) {
   .App-socials {
-    margin-top: 48px;
+    margin-bottom: 64px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
+    gap: 32px;
   }
 
-  .App-socials > a {
-    width: 48px;
+  .App-socials > div > a,
+  .App-socials > div > button {
+    width: 32px;
   }
 }
