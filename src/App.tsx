@@ -4,15 +4,11 @@ import Icon from "./components/Icons/Icon";
 function App() {
   return (
     <div className="App">
-      <main>
-        <img
-          src="/logo512.png"
-          className="App-logo"
-          alt="Tilect.art white on black logo"
-        />
-      </main>
-      <footer>
-        <div className="App-socials">
+      <video autoPlay loop muted>
+        <source src="/tilect_prueba02.mp4" type="video/mp4" />
+      </video>
+      <div className="App-socials">
+        <div>
           <a
             href="https://t.me/tilectartpublic"
             target="_blank"
@@ -20,6 +16,8 @@ function App() {
           >
             <Icon icon="telegram" />
           </a>
+        </div>
+        <div>
           <a
             href="https://instagram.com/tilect.art"
             target="_blank"
@@ -27,14 +25,18 @@ function App() {
           >
             <Icon icon="instagram" />
           </a>
+        </div>
+        <div>
           <a href="https://github.com/tilect" target="_blank" rel="noreferrer">
             <Icon icon="github" />
           </a>
+        </div>
+        <div>
           <button disabled>
             <Icon icon="soundcloud" color="gray" />
           </button>
         </div>
-      </footer>
+      </div>
     </div>
   );
 }
