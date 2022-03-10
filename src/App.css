@@ -22,27 +22,33 @@
   z-index: 1;
 }
 
-.App-socials {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 64px;
-  z-index: 2;
-  margin-bottom: 64px;
+.App > div {
+  display: flex;
+  height: 33%;
+  align-items: center;
 }
 
-.App-socials > div {
+.App-socials-grid {
+  height: 33%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  z-index: 2;
+}
+
+.App-socials-grid > div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.App-socials > div > a,
-.App-socials > div > button {
-  width: 64px;
+.App-socials-grid > div > a,
+.App-socials-grid > div > button {
+  width: 48px;
   text-align: center;
 }
 
-.App-socials > div > button {
+.App-socials-grid > div > button {
   background-color: transparent;
   border-style: none;
   padding: 0;
@@ -50,15 +56,14 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .App-socials {
-    margin-bottom: 64px;
+  .App-socials-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 32px;
   }
 
-  .App-socials > div > a,
-  .App-socials > div > button {
+  .App-socials-grid > div > a,
+  .App-socials-grid > div > button {
     width: 32px;
   }
 }
