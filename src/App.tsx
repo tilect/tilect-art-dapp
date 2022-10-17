@@ -37,9 +37,13 @@ function App() {
             </a>
           </div>
           <div>
-            <button disabled>
-              <Icon icon="soundcloud" color="gray" />
-            </button>
+            <a
+              href="https://soundcloud.com/tilect"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon icon="soundcloud" />
+            </a>
           </div>
         </div>
       </div>
